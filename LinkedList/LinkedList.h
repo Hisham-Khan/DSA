@@ -1,18 +1,6 @@
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 
-#include <stdio.h>
-
-/**
- * Node structure for singly linked list
- * @data: Integer value stored in the node
- * @next: Pointer to the next node in the list
- */
-typedef struct Node {
-    int data;
-    struct Node* next;
-} Node;
-
 /**
  * LinkedList_InitializeList - Initialize the linked list with the first node
  * @data: Value to store in the first node

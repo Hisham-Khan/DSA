@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "LinkedList/LinkedList.h"
 
 static int LinkedList_TestSuite(void);

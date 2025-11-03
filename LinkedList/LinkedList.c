@@ -1,5 +1,16 @@
 #include "LinkedList.h"
 #include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * Node structure for singly linked list
+ * @data: Integer value stored in the node
+ * @next: Pointer to the next node in the list
+ */
+typedef struct Node {
+    int data;
+    struct Node* next;
+} Node;
 
 /* Global pointer to the head of the linked list */
 Node *__head = NULL;
