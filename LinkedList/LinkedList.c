@@ -13,7 +13,7 @@ typedef struct Node {
 } Node;
 
 /* Global pointer to the head of the linked list */
-Node *__head = NULL;
+static Node *__head = NULL;
 
 /**
  * LinkedList_InitializeList - Initialize the linked list with the first node
